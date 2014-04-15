@@ -3,6 +3,8 @@
 
 
 ## Creates a matrix with its inverted matrix saved along.
+## Using Set to set new matrix also deletes cache.
+## Cache is populated by calling function cachesolve(x)
 makeCacheMatrix <- function(x = matrix()) {
   s <- NULL
   set <- function(y){
